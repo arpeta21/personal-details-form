@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+    body { padding: 10px; }
+    header { padding: 10px; }
+}
